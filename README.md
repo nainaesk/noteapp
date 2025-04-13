@@ -32,3 +32,14 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+### Git commit types
+
+feat A new feature
+fix A bug fix
+chore Maintenance (build config, etc.)
+docs Documentation only changes
+style Formatting (no logic changes)
+refactor Code refactoring (no behavior change)
+test Adding or updating tests
+perf Performance improvements
