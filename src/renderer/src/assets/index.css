@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@tailwind utilities;
+@theme {
+  --font-display: 'Satoshi', 'sans-serif';
+  --breakpoint-3xl: 1920px;
+  /* Add other custom variables as needed */
+}
+@layer base {
+  #root {
+    @apply h-full;
+  }
+  html,
+  body {
+    @apply h-full;
+    @apply select-none;
+    @apply bg-transparent;
+    @apply font-mono antialiased text-white;
+    @apply overflow-hidden;
+  }
+}
+#root {
+  background-color: rgb(173, 116, 42);
+}
