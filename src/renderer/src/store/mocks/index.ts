@@ -29,8 +29,8 @@ export const notesMock: NoteInfo[] = [
         title: 'Book Recommendations 📚',
         lastEditTime: new Date().getTime() - 10 * 24 * 3600 * 1000, // 10 days ago
     },
-    {
-        title: 'Recipe Ideas 🍳',
-        lastEditTime: new Date().getTime() - 14 * 24 * 3600 * 1000, // 14 days ago
-    },
+    // {
+    //     title: 'Recipe Ideas 🍳',
+    //     lastEditTime: new Date().getTime() - 14 * 24 * 3600 * 1000, // 14 days ago
+    // },
 ];
