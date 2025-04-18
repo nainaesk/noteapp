@@ -30,6 +30,6 @@ export default defineConfig({
         '@/mocks': resolve('src/renderer/src/mocks'),
       }
     },
-    plugins: [react(), tailwindcss(),]
+    plugins: [react(), tailwindcss()]
   }
 })
