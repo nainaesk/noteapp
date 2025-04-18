@@ -1,7 +1,7 @@
 import { ActionButton, ActionButtonProps } from '@/components'
 import { createEmptyNoteAtom } from '@renderer/store'
 import { useAtom } from 'jotai'
-import { LuSignature } from 'react-icons/lu'
+import { FaCirclePlus } from 'react-icons/fa6'
 
 export const NewNoteButton = ({ ...props }: ActionButtonProps) => {
   const [_, createEmptyNote] = useAtom(createEmptyNoteAtom)
@@ -11,7 +11,7 @@ export const NewNoteButton = ({ ...props }: ActionButtonProps) => {
   }
   return (
     <ActionButton onClick={handleCreation} {...props}>
-      <LuSignature className="w-4 h-4 text-zinc-300"></LuSignature>
+      <FaCirclePlus className="w-5 h-5 text-zinc-300" />
     </ActionButton>
   )
 }

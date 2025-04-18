@@ -27,6 +27,7 @@
 
   button {
     -webkit-app-region: no-drag;
+    @apply cursor-pointer;
   }
 
   ::-webkit-scrollbar {
