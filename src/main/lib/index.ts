@@ -5,7 +5,8 @@ import { ensureDir, readdir, stat } from 'fs-extra';
 import { homedir } from "os";
 
 export const getRootDir = () => {
-    return `${homedir()}/${appDirectoryName}`
+    const rootDir = `${homedir()}/${appDirectoryName}`;
+    return rootDir;
 }
 
 export const getNotes: GetNotes = async () => {
